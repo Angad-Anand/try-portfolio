@@ -1,0 +1,119 @@
+.container_right {
+  display: flex;
+}
+
+.top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.box {
+  flex: 1;
+  padding: 20px; 
+  text-align: center; 
+}
+
+.Big_name {
+  font-size: 50px;
+  font-weight: 800;
+  color: aliceblue;
+  margin-top: 15px;
+  width: auto;
+  word-wrap: break-word;
+  border-radius: 120px;
+  position: relative;
+  padding: 50px;
+  //   background-color: #4d5258cb;
+  background-color: #373b40;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.fancy {
+  position: relative;
+  white-space: nowrap;
+  &:after {
+    --deco-height: 0.3125em;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: calc(var(--deco-height) * -0.625);
+    height: var(--deco-height);
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='64' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23a)'%3E%3Cpath d='M-17 30.5C-1 22 72-4 54 13 37.9 28.2-2.5 57.5 16 55.5s72-29 104-40' stroke='%2300FDCF' stroke-width='10'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='a'%3E%3Cpath fill='%23fff' d='M0 0h100v64H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+    background-size: auto 100%;
+    background-repeat: round;
+    background-position: 0em;
+  }
+}
+
+
+.intro {
+  display: grid;
+  justify-content: center;
+}
+
+.text_intro {
+  font-size: 16px;
+  color: #5fc0b3;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.text_intro .type {
+  font-weight: 600;
+}
+
+.text_intro .text {
+  width: 300px;
+  height: 50px;
+  //   outline: 3px solid green;
+  padding-top: 15px;
+  text-align: left;
+  font-weight: 400;
+  color: white;
+  font-size: 10px;
+}
+
+.Contact_me {
+  margin: 8px;
+  font-size: 10px;
+}
+
+.Contact_me button {
+  margin: 0 5px;
+  border-radius: 50px;
+  padding: 8px 14px;
+  background-color: #373b40;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  font-size: 8px;
+  border: 1px solid #68e0cf;
+}
+
+.flip-3d {
+  .char {
+    transition: transform 0.6s cubic-bezier(0.6, 0, 0, 0.6);
+    transition-delay: calc(0.3s * (1 - var(--distance-percent)));
+    transition-delay: calc(0.3s * var(--distance-percent));
+  }
+
+  &:hover .char {
+    color: #68e0cf;
+    transform: rotateX(-1turn);
+    transition-duration: 1s;
+    transition-delay: calc(0.3s * var(--distance-percent));
+    transition-delay: calc(0.3s * (1 - var(--distance-percent)));
+  }
+}
+
+.flip-3d {
+  perspective: 200px;
+  transform-style: preserve-3d;
+}
+

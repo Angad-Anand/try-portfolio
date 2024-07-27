@@ -1,0 +1,24 @@
+{
+    "cards": [{
+      "title": "Web Layout",
+      "percentage": "80",
+      "description": "Etiam sit amet orci eget eros faucibus tincidunt Duisleo. Sed fringilla mauris sit amet nibh."
+    },
+    {
+        "title": "PhotoShop",
+        "percentage": 70,
+        "description": "Etiam sit amet orci eget eros faucibus tincidunt Duisleo. Sed fringilla mauris sit amet nibh."
+      },{
+        "title": "PhotoShop",
+        "percentage": 7,
+        "description": "Etiam sit amet orci eget eros faucibus tincidunt Duisleo. Sed fringilla mauris sit amet nibh."
+      }
+      ,{
+        "title": "PhotoShop",
+        "percentage": 43,
+        "description": "Etiam sit amet orci eget eros faucibus tincidunt Duisleo. Sed fringilla mauris sit amet nibh."
+      }
+      
+  ]}
+    
+  

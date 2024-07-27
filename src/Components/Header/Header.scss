@@ -1,0 +1,133 @@
+.header {
+  background-color: #585d65;
+  position: fixed; /* Fix the header at the top of the viewport */
+  top: 0; /* Position at the top */
+  left: 0; /* Position at the left */
+  width: 90vw; /* Occupy full width of the viewport */
+  /* Your desired header background color */
+  color: white;
+  padding: 10px 20px;
+  font-family: "Poppins", sans-serif;
+  /* Apply Poppins font to header */
+  margin: 22px;
+  border-radius: 50px;
+  height: auto;
+  z-index: 10;
+}
+
+.splitting {
+  cursor: pointer;
+}
+
+// .nav {
+//   //   display: flex;
+//   //   justify-content: flex-end;
+// }
+
+.nav_left {
+  float: left;
+  font-size: 9px;
+  font-weight: 800;
+  opacity: 0.8;
+  cursor: pointer;
+  color: #00FDCF;
+  text-decoration: none;
+}
+.nav_right {
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  font-weight: 1000;
+  /* Set font weight to 800 */
+  font-size: 6.5px;
+  /* Set font size to 12px */
+}
+
+.nav-item a:hover {
+  text-decoration: none;
+  color: #68e0cf;
+  }
+  
+.nav-list .active{
+  color: #68e0cf;
+}
+
+.shift-right {
+  &:before {
+    content: ">";
+    font: inherit;
+    vertical-align: 0.1em;
+    display: inline-block;
+    transform: scaleY(0) translateX(-1em);
+    margin-right: -0.25em;
+    color: #68e0cf;
+  }
+
+  &:before,
+  .char {
+    transition: transform 0.8s cubic-bezier(0.75, 0, 0.24, 0.98);
+    transition-delay: calc(0.015s * var(--char-index));
+  }
+
+  .char {
+    transform: translateX(-0.15em);
+  }
+
+  &:hover:before {
+    transform: scaleY(1) translateX(0em);
+  }
+
+  &:hover .char {
+    transform: translateX(1em);
+    transform: translateX(0.5em) translateX(calc(0.1em * var(--char-index)));
+  }
+}
+
+.cv {
+  margin: 0 5px;
+  border-radius: 50px;
+  padding: 8px 14px;
+  background-color: #585d65;
+  border: 1px solid #68e0cf;
+
+}
+
+.flip-3d {
+  .char {
+    transition: transform 0.6s cubic-bezier(0.6, 0, 0, 0.6);
+    transition-delay: calc(0.3s * (1 - var(--distance-percent)));
+    transition-delay: calc(0.3s * var(--distance-percent));
+  }
+
+  &:hover .char {
+    transform: rotateX(-1turn);
+    transition-duration: 1s;
+    transition-delay: calc(0.3s * var(--distance-percent));
+    transition-delay: calc(0.3s * (1 - var(--distance-percent)));
+  }
+}
+
+.flip-3d {
+  perspective: 200px;
+  transform-style: preserve-3d;
+}

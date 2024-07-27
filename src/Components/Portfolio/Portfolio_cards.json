@@ -1,0 +1,60 @@
+{
+  "cards": [
+    {
+      "id": "1",
+      "type": "Content",
+      "title": "Yellow and Blue Striped",
+      "img": "assets/Yellow_and_blue_striped.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa earum blanditiis mollitia ad tempora suscipit,Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa earum blanditiis mollitia ad tempora suscipit,Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa earum blanditiis mollitia ad tempora suscipit,Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa earum blanditiis mollitia ad tempora suscipit,"
+    },
+    {
+      "id": "2",
+      "type": "Image",
+      "title": "White Rose Photo",
+      "img": "assets/White_Rose_Photo.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa earum blanditiis mollitia ad tempora suscipit,"
+    },
+    {
+      "id": "3",
+      "type": "Image",
+      "title": "Honest Company",
+      "img": "assets/Honest Company.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa earum blanditiis mollitia ad tempora suscipit,"
+    },
+    {
+      "id": "4",
+      "type": "Gallery",
+      "title": "Brown Short Dog",
+      "img": "assets/Brown Short Dog.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa earum blanditiis mollitia ad tempora suscipit,"
+    },
+    {
+      "id": "5",
+      "type": "Music",
+      "title": "Brown Concrete Building",
+      "img": "assets/Brown Concrete Building.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa earum blanditiis mollitia ad tempora suscipit,"
+    },
+    {
+      "id": "6",
+      "type": "Video",
+      "title": "Book of John Paper",
+      "img": "assets/Book of John Paper.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa earum blanditiis mollitia ad tempora suscipit,"
+    },
+    {
+      "id": "7",
+      "type": "Links",
+      "title": "Black Car",
+      "img": "assets/Black Car.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa earum blanditiis mollitia ad tempora suscipit,"
+    },
+    {
+      "id": "8",
+      "type": "Gallery",
+      "title": "Alabaster Complete Collection",
+      "img": "assets/Alabaster Complete Collection.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa earum blanditiis mollitia ad tempora suscipit,"
+    }
+  ]
+}

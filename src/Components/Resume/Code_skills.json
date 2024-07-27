@@ -1,0 +1,36 @@
+{
+    "cards": [{
+      "title": "C++",
+      "percentage": 80,
+      "description": "Etiam sit amet orci eget eros faucibus tincidunt "
+    },
+    {
+        "title": "Java",
+        "percentage":90,
+        "description": "Etiam sit amet orci eget eros faucibus tincidunt "
+      },{
+        "title": "Python",
+        "percentage": 7,
+        "description": "Etiam sit amet orci eget eros faucibus tincidunt "
+      }
+      ,{
+        "title": "Javascript",
+        "percentage": 90,
+        "description": "Etiam sit amet orci eget eros faucibus tincidunt "
+      },{
+        "title": "React",
+        "percentage": 75,
+        "description": "Etiam sit amet orci eget eros faucibus tincidunt "
+      },{
+        "title": "Mysql",
+        "percentage": 70,
+        "description": "Etiam sit amet orci eget eros faucibus tincidunt "
+      },{
+        "title": "Angular",
+        "percentage": 80,
+        "description": "Etiam sit amet orci eget eros faucibus tincidunt "
+      }
+      
+  ]}
+    
+  

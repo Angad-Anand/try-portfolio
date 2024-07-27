@@ -1,0 +1,49 @@
+.about-me {
+  font-size: 0.8rem; 
+  color: #ffffff;
+  margin-top: 50px;
+  padding-left: 0px;
+  border-radius: 10px;
+  max-width: 85%;
+  font-size: 10px;
+  text-align: left;
+  // outline: 1px solid green;
+}
+
+.about-me .big {
+  font-size: 34px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.about-me .small {
+  font-size: 8px;
+  font-weight: 600;
+  color: #5FE0CF;
+}
+.content {
+  margin-top: 20px;
+  font-size: 8px;
+  text-align: justify;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 8px;
+  font-weight: 600;
+}
+
+.details div {
+  display: flex;
+}
+
+.details .detail{
+  width: 60px;
+  color: #5FE0CF;
+  text-transform: uppercase;
+}
+
