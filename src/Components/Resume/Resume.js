@@ -10,7 +10,7 @@ function Resume() {
   //horizontal scroll
   const elementRef = useRef(null);
   const [arrowDisable, setArrowDisable] = useState(true);
-  const [disableRight, setDisableRight] = useState(false);
+  // const [disableRight, setDisableRight] = useState(false);
 
   const handleHorizantalScroll = (element, speed, distance, step) => {
     let scrollAmount = 0;
@@ -27,17 +27,12 @@ function Resume() {
   const updateArrowsState = () => {
     if (elementRef.current) {
       setArrowDisable(elementRef.current.scrollLeft === 0);
-      setDisableRight(
-        elementRef.current.scrollLeft + elementRef.current.clientWidth >=
-          elementRef.current.scrollWidth
-      );
     }
   };
 
   useEffect(() => {
     updateArrowsState();
   }, []);
-
   return (
     <div className="container">
       <section className="section">

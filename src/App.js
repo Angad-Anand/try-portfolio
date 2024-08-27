@@ -1,3 +1,4 @@
+
 import Header from "./Components/Header/Header";
 import Contact from "./Components/Contacts/Contact";
 import About from "./Components/About/About";
@@ -19,14 +20,14 @@ function App() {
         <div className="split">
           <div className="left"></div>
           <div className="right">
-            <Routes>
-                            {/* buffer test */}
-              <Route path="/" element={<Portfolio />}></Route>  
-            </Routes>
-
             {/* <Routes>
-              <Route path="/" element={<Content />}></Route>
+                            buffer test
+              <Route path="/" element={<Portfolio />}></Route>  
             </Routes> */}
+
+            <Routes>
+              <Route path="/" element={<Content />}></Route>
+            </Routes>
             <Routes>
               <Route path="/home" element={<Content />}></Route>
             </Routes>
